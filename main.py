@@ -7,8 +7,8 @@ from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 import time
 import numpy as np
-# nltk.download('punkt')
-# nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('stopwords')
 import base64
 
 def add_bg_from_local(image_file):
