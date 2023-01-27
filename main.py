@@ -93,14 +93,6 @@ def find_best_neigb(data_filter, org):
 
 data = pd.read_csv('final_data.csv') # data after preprocces
 
-
-# def show_full_screen(inx):
-#     st.session_state.summery = filtered.iloc[inx]['summary']
-#     st.session_state.link = filtered.iloc[inx]['link']
-#     st.session_state.image = filtered.iloc[inx]['image']
-#     st.write(str(st.session_state.summery))
-#     st.image(str(st.session_state.image), width=400, )
-
 # opening
 st.write("""
 # The Perfect Recipe Just For You
